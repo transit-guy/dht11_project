@@ -25,8 +25,8 @@
               while ($row = mysqli_fetch_assoc($resultl)){
       ?>
                   <TR>
-                  <TD><?php echo $row['id'];?></TD>
-                  <TD><?php  
+                    <TD><?php echo $row['id'];?></TD>
+                  	<TD><?php  
                     		if ($row['card_select'] == 1) {
                     			echo "<span><i class='glyphicon glyphicon-ok' title='The selected UID'></i></span>";
                     		}

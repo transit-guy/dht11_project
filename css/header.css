@@ -64,7 +64,7 @@ header, main {
 }
 
 main {
-  margin-left: 200px; /* Same as the width of the sidenav */
+  margin-left: 0px; /* Same as the width of the sidenav */
   padding: 0px 10px;
 }
 

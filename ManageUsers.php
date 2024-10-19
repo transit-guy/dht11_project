@@ -49,11 +49,13 @@ if (!isset($_SESSION['Admin-name'])) {
     <div style="background-color: #eda200; width: 200px;padding:20px;">
         <?php include'header.php';?>
     </div>
-<main style="flex-grow: 1; padding: 20px;">
+
+<main style="padding: 0px;margin:40px;">
         <h1 class="slideInDown animated" style="margin-top:20;">Add a new User or update his information <br> or remove him</h1>
-	<div class="form-style-5 slideInDown animated">
+	<div class="form-style-5 slideInDown animated" style="margin:0px;">
 		<form enctype="multipart/form-data">
 			<div class="alert_user"></div>
+	  		
 			<fieldset>
 				<legend><span class="number" style="border-radius:15px;">1</span> User Info</legend>
 				<input type="hidden" name="user_id" id="user_id">

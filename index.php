@@ -30,7 +30,7 @@ if (!isset($_SESSION['Admin-name'])) {
     <div style="background-color: #eda200; padding: 20px;">
         <?php include 'header.php'; ?>
     </div>
-    <main style="flex-grow: 1; padding: 20px;">
+    <main style="flex-grow: 1; padding: 0;margin:0px;">
         <section>
         <div class="header">
           <div class="logo">

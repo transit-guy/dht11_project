@@ -28,6 +28,8 @@ if (!isset($_SESSION['Admin-name'])) {
     }).resize();
     </script>
     <script>
+
+      
       $(document).ready(function(){
         $.ajax({
           url: "user_log_up.php",
@@ -60,7 +62,7 @@ if (!isset($_SESSION['Admin-name'])) {
     <div style="background-color: #eda200; padding: 20px;">
         <?php include'header.php'; ?> 
     </div>
-    <main style="padding: 20px;">
+    <main style="padding: 0px;margin:0px;">
     <section class="container py-lg-5">
 
     <div class="header">
@@ -71,6 +73,8 @@ if (!isset($_SESSION['Admin-name'])) {
 
   <!--User table-->
     <h1 class="slideInDown animated">Here are the Users daily logs</h1>
+
+    <!--  -->
     <div class="form-style-5">
       <button type="button" data-toggle="modal" data-target="#Filter-export" style="background: #eda200; border:white">Log Filter/ Export to Excel</button>
     </div>
